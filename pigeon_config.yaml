@@ -1,0 +1,8 @@
+config_version: 1
+package_name: com.example.my_inner_flutter_module
+input: lib/pigeon/image_api.dart
+dart:
+  out: lib/pigeon/generated_pigeon.dart
+kotlin:
+  out: android/src/main/kotlin/com/example/my_inner_flutter_module/GeneratedPigeon.kt
+  package: com.example.my_inner_flutter_module

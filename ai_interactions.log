@@ -1,0 +1,30 @@
+# AI Interactions Log
+
+## 2023-07-05 14:30:00
+**Prompt:** Set up a Flutter photo viewer app with Pigeon for Android integration
+
+**Summary:** Created a photo viewer Flutter module that can display images shared from an Android app.
+- Added Pigeon and image-related dependencies
+- Created Pigeon API definitions for communication between Flutter and Android
+- Implemented ImageService to handle image data and communication
+- Built PhotoViewerScreen to display shared images
+- Updated Main app to support photo viewing functionality
+- Added correct namespacing to avoid conflicts
+
+## 2023-07-05 15:45:00
+**Prompt:** Add to README.md files android_outer.md and ios_outer.md with instructions on how to utilize this module in host app
+
+**Summary:** Created comprehensive documentation for integrating the Flutter module into native apps.
+- Updated main README.md with features and integration links
+- Created android_outer.md with detailed steps for Android integration
+  - Setting up dependencies
+  - Configuring Flutter engine
+  - Implementing Pigeon communication 
+  - Handling image sharing
+  - Troubleshooting common issues
+- Created ios_outer.md with detailed steps for iOS integration
+  - Setting up Pods
+  - Managing Flutter engine lifecycle
+  - Implementing Pigeon-based communication
+  - Creating iOS Share extension
+  - Memory management and debugging tips
