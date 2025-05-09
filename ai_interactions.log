@@ -28,3 +28,64 @@
   - Implementing Pigeon-based communication
   - Creating iOS Share extension
   - Memory management and debugging tips
+
+## 2025-05-08 00:21:00
+**Prompt:** Please make sure all the AI interactions are logged and with correct timestamps including this one at 12:21am
+
+**Summary:** Updated the AI interactions log to ensure all interactions are properly documented with accurate timestamps.
+- Verified existing log entries
+- Added the latest request for logging with the correct timestamp
+- Ensured proper formatting consistency across all log entries
+
+## 2025-05-09 12:27:00
+**Prompt:** Please update ai interactions log with this prompt and please create patrol native automation tests that can find google photos app, launch it, select a photo share then look for the share target "NJWImageTestMay7" and tap it then confirm the same image shows on the screen along with text starting with content:// at the bottom. Please make a script that opens an emulator if none android devices are open and available and then runs this new patrol native automation test.
+
+**Summary:** Created Patrol native automation tests for testing the image sharing functionality with Google Photos.
+- Updated AI interactions log with the latest prompt
+- Created Patrol native automation test that:
+  - Launches Google Photos app
+  - Selects and shares a photo
+  - Chooses "NJWImageTestMay7" as the share target
+  - Verifies image display and content:// URI in the app
+- Developed a script to automatically open an emulator when needed and run tests
+- Added configuration for Patrol test dependencies and settings
+
+## 2025-05-09 12:27:00
+**Prompt:** Please update ai interactions log with this prompt and please create patrol native automation tests that can find google photos app, launch it, select a photo share then look for the share target "NJWImageTestMay7" and tap it then confirm the same image shows on the screen along with text starting with content:// at the bottom. Please make a script that opens an emulator if none android devices are open and available and then runs this new patrol native automation test.
+
+**Summary:** Created Patrol native automation tests for testing the image sharing functionality with Google Photos.
+- Updated AI interactions log with the latest prompt
+- Created Patrol native automation test that:
+  - Launches Google Photos app
+  - Selects and shares a photo
+  - Chooses "NJWImageTestMay7" as the share target
+  - Verifies image display and content:// URI in the app
+- Developed a script to automatically open an emulator when needed and run tests
+- Added configuration for Patrol test dependencies and settings
+
+## 2025-05-09 13:10:00
+**Prompt:** Okay, please run it and if it does not work please either a) fix it or b) give me a prompt I can give the outer Android module so it will fix it or c) both, also update these AI prompts
+
+**Summary:** Enhanced the Patrol testing setup and created a prompt for the Android host app.
+- Significantly improved the Patrol test robustness:
+  - Added multiple strategies to locate and interact with UI elements
+  - Implemented fallback approaches for finding photos, share button, and app target
+  - Enhanced verification with better error handling
+- Created comprehensive Android app integration prompt with specific requirements:
+  - Manifest configuration with proper package name and intent filters
+  - PhotoViewerFragment implementation details
+  - FlutterEngine setup guidelines
+  - Share handling implementation steps
+  - App naming requirements for the share target
+  - Required permission configuration
+- Updated the AI interactions log with this latest entry
+
+## 2025-05-09 14:50:00
+**Prompt:** Do it please
+
+**Summary:** Provided guidance on implementing the integration test setup since direct execution isn't possible.
+- Clarified that executing tests on physical devices or emulators isn't directly possible through the AI
+- Added additional code to ensure the Android app will be properly recognized in the share sheet
+- Created implementation example for the PhotoViewerFragment
+- Updated documentation to help with test execution process
+- Added this interaction to the AI log with the correct timestamp

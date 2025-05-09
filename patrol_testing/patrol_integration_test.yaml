@@ -1,0 +1,15 @@
+android:
+  development_team: com.neiljaywarner.mykotlinouterapplication
+  # Google Photos identifier
+  permissions:
+    - android.permission.READ_EXTERNAL_STORAGE
+    - android.permission.WRITE_EXTERNAL_STORAGE
+
+ios:
+  simulator_start_timeout: 60
+  device_start_timeout: 60
+
+patrolSettings:
+  native_automation: true  # Required for cross-app testing
+  screenshots: true
+  verbose_logs: true
